@@ -1,0 +1,68 @@
+body{
+    background-color: rgb(34, 34, 34);
+    color: white;
+    font-family: poppinsregular ;
+    max-width: 1700px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+header{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-size: 30px;
+}
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+
+h2{
+    font-size: 55px;
+    line-height: 10px;
+    font-family: poppinsmedium;
+}
+
+span{
+    color: rgb(225, 15, 15);
+}
+
+
+p{
+    font-size:larger;
+    justify-content: center;
+
+    font-family: poppinslight;
+}
+
+button{
+   display: flex;
+   height: 25px;
+   background-color: rgba(222, 22, 22, 0.759);
+   color: white;
+}
+
+button{
+    margin-left:150px;
+    border-radius: 10px;
+    
+}
+
+aside{
+    justify-content: center;
+}
+
